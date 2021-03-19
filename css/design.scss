@@ -203,6 +203,7 @@ header{
 
 .loginPage{
     @include backgroundImg();
+    // background-image: url('/img/loginBackground.png');
     background-image: url('/img/loginBackground.png');
     display:block;
     position: absolute;
