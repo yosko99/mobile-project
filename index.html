@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/design.css">
+    <title>mySite</title>
+</head>
+<body>
+    <div class="loginPage">
+        <header>
+            <h2>mySite</h2> 
+        </header>
+
+        <div class="container" id='login'>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class='form-control' name="email" id="email" placeholder="Enter email"> <br>
+            </div>
+            <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" class='form-control' name="pass" id="pass" placeholder="Enter password"> <br>
+            </div>
+
+            <div class="alert" id='alertMsg' role="alert">A success alert</div>
+
+            <button type="submit" id='submit' class="btn btn-primary" tabindex="0">Submit</button>
+            <button type="submit" id='reg' class="btn btn-primary">Register</button>
+
+        </div>
+
+        <div class="container" id='register'>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class='form-control' name="email" id="regEmail" placeholder="Enter email"> <br>
+            </div>
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" class='form-control' name="name" id="name" placeholder="Enter name"> <br>
+            </div>
+            <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" class='form-control' name="pass" id="regPass" placeholder="Enter password"> <br>
+            </div>
+            <div class="alert" id='alertMsg' role="alert">A success alert</div>
+
+            <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <header>
+            <h2>mySite</h2>
+            <img src="/img/close.png" class='burger-btn' id='close-btn' alt="close-btn">
+        </header>
+        <ul>
+            <li name='projects'>
+                <a>projects</a><br>
+                <label for="projects">some of my projects</label>
+            </li>
+            <li name='about-me'>
+                <a href="">about me</a> <br>
+                <label for="about-me">information about me</label>
+            </li>
+            <li name='abilities'>
+                <a href="">my abilities</a> <br>
+                <label for="abilities">what i can offer</label>
+            </li>
+            <li name='contact'>
+                <a href="">contact me</a> <br>
+                <label for="contact">contact info</label>
+            </li>
+        </ul>            
+    </div>
+
+    <div class="projects">
+        <header>
+            <h2>mySite</h2>
+            <img src="/img/back.png" class='burger-btn' id='back-btn' alt="back-btn">
+        </header>
+        <h1>my projects</h1>
+        <div class="container">
+            <div class="row">
+                <a>
+                    <img src="/img/calculator.png" class='col-md-4' alt="calculator">
+                </a>
+                <a>
+                    <img src="/img/lorenz.png" class="col-md-4" alt="lorenz">
+                </a>
+                <a>
+                    <img src="/img/meditate-timer.png" class="col-md-4" alt="meditate-timer">
+                </a>
+            </div>
+            <div class="row">
+                <a>
+                    <img src="/img/random-pixels.png" class="col-md-4" alt="random-pixels">
+                </a>
+                <a>
+                    <img src="/img/tic-tac-toe.png" class="col-md-4" alt="tic-tac-toe">
+                </a>
+                <a>
+                    <img src="/img/website.png" class="col-md-4" alt="website">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="welcomePage">
+        <header>
+            <h2>mySite</h2>
+            <img src="/img/burger.png" class='burger-btn' id='burger-btn' alt="burger-btn">
+        </header>
+    
+        <div class="welcome">
+            <h1 name='hello'>Hello i am Yusuf</h1>
+            <label for="hello">A computer science student</label>
+        </div>
+    </div>
+    
+    <script src='/js/main.js'></script>
+</body>
+</html>
