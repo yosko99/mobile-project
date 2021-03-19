@@ -23,7 +23,7 @@ body {
 }
 
 .welcomePage {
-  background-image: url("/img/background.jpg");
+  background-image: url("/mobile-project/img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -197,7 +197,7 @@ header h2 {
   width: 100%;
   height: 100vh;
   position: absolute;
-  background-image: url("/img/project-background.png");
+  background-image: url("/mobile-project/img/project-background.png");
   display: none;
   -webkit-animation: menuHide 1s;
           animation: menuHide 1s;
@@ -268,7 +268,7 @@ header h2 {
   background-size: cover;
   width: 100%;
   height: 100vh;
-  background-image: url("/img/loginBackground.png");
+  background-image: url("/mobile-project/img/loginBackground.png");
   display: block;
   position: absolute;
 }

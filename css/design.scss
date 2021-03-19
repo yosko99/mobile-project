@@ -30,7 +30,7 @@ body {
 
 
 .welcomePage{
-    background-image: url("/img/background.jpg");
+    background-image: url('/mobile-project/img/background.jpg');
     @include backgroundImg();
     position:initial;
     display:none;
@@ -158,7 +158,7 @@ header{
 .projects{
     @include backgroundImg();
     position: absolute;
-    background-image: url('/img/project-background.png');
+    background-image: url('/mobile-project/img/project-background.png');
     display:none;
     animation: menuHide 1s;
     transform-origin: bottom;
@@ -204,7 +204,7 @@ header{
 .loginPage{
     @include backgroundImg();
     // background-image: url('/img/loginBackground.png');
-    background-image: url('/img/loginBackground.png');
+    background-image: url('/mobile-project/img/loginBackground.png');
     display:block;
     position: absolute;
     h2{
